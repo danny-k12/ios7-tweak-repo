@@ -54,3 +54,38 @@ Description: Wi-Fi password/keychain fix for iOS 7 SEPless tethered devices.
 Author: Resul
 Name: SCS WiFi Fix
 
+Package: com.skyglow.snd
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: Requis, Preloading
+Installed-Size: 15812
+Depends: firmware (>= 4.0), firmware (<< 10.0), mobilesubstrate | substitute | ellekit, preferenceloader
+Filename: ./debs/com.skyglow.snd_3.0.1_iphoneos-arm.deb
+Size: 4739662
+MD5sum: 573d76120852054a1432aee92567afa6
+SHA1: d10df33e07a7498a4bd7c6b8e5f4ac794aa39851
+SHA256: 7f04e2f723f794aaea7d5519bb971193282ff8170a0ab352d6e24a17ee826d06
+Section: System
+Description: Low power daemon that runs in the background and fetches notifications from a server for all of your apps.
+Author: Requis, Preloading
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.snd/depictions/index.html
+Icon: file:///Library/PreferenceBundles/SGNPreferenceBundle.bundle/icon-settings.png
+Name: Skyglow Notifications
+
+Package: com.skyglow.weatherx
+Version: 3.6
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
+Conflicts: com.ixmoe.1pwn.weatherx, com.skyglow.stocksx
+Filename: ./debs/WeatherX-Legacy.deb
+Size: 157638
+MD5sum: b77474360f41196a0bc7effc9820db47
+SHA1: f61cf12def3650844fbecde316ab777b2616331e
+SHA256: daaed990882d922a1cfc7f74a5fc3a765825899f254f7226842469333eadb63d
+Section: Tweaks
+Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
+Author: Requis, Electimon
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Name: Weather & Stocks
+
